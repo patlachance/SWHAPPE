@@ -1,4 +1,4 @@
 # SHWAP-Template
 Software Heritage Acquisition Process skeleton template 
 
-This repository should define the skeleton of directory to clone to instantiate a SHWAP for a software acquisition.
+This repository should define the skeleton of directories to clone for a specific SHWAP (for each software acquisition).
