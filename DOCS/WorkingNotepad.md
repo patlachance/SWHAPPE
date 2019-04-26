@@ -72,13 +72,11 @@ We focused our attention to the following legacy software:
 
 # Web Ref
 
-[Latest generated pdf](WorkingNotepad.pdf)
-
-[Directory clone](https://help.github.com/en/articles/splitting-a-subfolder-out-into-a-new-repository)
-
-[DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) 
-
-*[google doc precedente](https://docs.google.com/document/d/1oHqEwyZscRNWgcktnLXohNuNWvYM2fwCsuBHtYNH9FM/edit?usp=sharing)*
+* [Latest generated pdf](WorkingNotepad.pdf)
+* [software acquisition template repository](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE)
+* [Directory clone](https://help.github.com/en/articles/splitting-a-subfolder-out-into-a-new-repository)
+* [DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) 
+* *[google doc precedente](https://docs.google.com/document/d/1oHqEwyZscRNWgcktnLXohNuNWvYM2fwCsuBHtYNH9FM/edit?usp=sharing)*
 
 # Code
 

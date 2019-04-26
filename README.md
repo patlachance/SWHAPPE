@@ -6,3 +6,5 @@ This repository brings together the documentation, the catalogue and other infor
 **Under contruction**
 
 *We are currently working on the draft of [Working Notepad](DOCS/WorkingNotepad.md).*
+
+*Here is the link to the [software acquisition template repository](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE).*

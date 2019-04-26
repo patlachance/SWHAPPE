@@ -4,3 +4,5 @@ Here you can find documentation and references about [The Software Heritage](htt
 
 
 We are currently working on the draft of [Working Notepad](WorkingNotepad.md).
+
+*Here is the link to the [software acquisition template repository](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE).*
