@@ -37,20 +37,22 @@ In particular, we choose GitHub as material implementation of the depository and
 * it offers facilities to compile the journal (in the form of commit history, where each changes is tracked) and the catalogue.
 
 The main GitHub repository involved are
-1. **DIUNIPI4SWH**
+
+1.  **DIUNIPI4SWH**
      This is the front-page of the project. It presents the project, the software acquisition process, collect the documentation, contains the catalogue of acquired softwares and the journal of acquisitions. It also links the template repository that has to be used to start each acquisition process. 
     It is curated by one or more maintainers in charge of accepting records for the catalogue.
-2. **DIUNIPI SWH TEMPLATE**
+2.  **DIUNIPI SWH TEMPLATE**
     This repository defines the skeleton of directories and files that has to be used for each software acquisition.
 
 ![SH_UNIPI_PROCESS](SH_UNIPI_PROCESS.png)
 
 The process here is as follows:
-1. For every new software acquisition, the DI.UNIPI SWH TEMPLATE, wich contains th deppository skeleton template, is forked into a LAB repostitory. 
+
+1.  For every new software acquisition, the DI.UNIPI SWH TEMPLATE, wich contains th deppository skeleton template, is forked into a LAB repostitory. 
    The forked repository is named with the pattern <SW_NAME> LAB, where <SW_NAME> is in the form of <software_name>_<main_autor_surname>_<year>.
-2. The acquisition process begin filling the DEPOSITORY TMP directory with all the digital version of original materials and the traces are written into the specific Depository Journal. Once the acquisition process is terminated the specific Depository catalog is compiled the DEPOSITORY TMP directory is cloned into a <SW_NAME> DEPOSITORY repository. This repository will be set as read only (that is, writable only by the owner).
-3. The curation process begin filling the WORKBENCH TMP directory from material of the DEPOSITORY TMP directory. In particular, the SRC folder will contains a synthetic git build following what done by Spinellis [@Spi16g]. The DATA directory will contains all additional information. As for depository, once the curation process is completed, the WORKBENCH TMP directory is cloned into a <SW_NAME> repository and will be set as read only. This is the curated software, result of acquisition process. 
-4. Once the curated software repository is done, the curator propose a record into the catalog of [DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) repository. The owner of [DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) repository will accept the record and will submit the curated software to the Software Heritage Archive ([HAL](https://hal.archives-ouvertes.fr/)).
+2.  The acquisition process begin filling the DEPOSITORY TMP directory with all the digital version of original materials and the traces are written into the specific Depository Journal. Once the acquisition process is terminated the specific Depository catalog is compiled the DEPOSITORY TMP directory is cloned into a <SW_NAME> DEPOSITORY repository. This repository will be set as read only (that is, writable only by the owner).
+3.  The curation process begin filling the WORKBENCH TMP directory from material of the DEPOSITORY TMP directory. In particular, the SRC folder will contains a synthetic git build following what done by Spinellis [@Spi16g]. The DATA directory will contains all additional information. As for depository, once the curation process is completed, the WORKBENCH TMP directory is cloned into a <SW_NAME> repository and will be set as read only. This is the curated software, result of acquisition process. 
+4.  Once the curated software repository is done, the curator propose a record into the catalog of [DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) repository. The owner of [DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) repository will accept the record and will submit the curated software to the Software Heritage Archive ([HAL](https://hal.archives-ouvertes.fr/)).
 
 # Use cases
 
