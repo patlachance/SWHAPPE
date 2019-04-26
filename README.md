@@ -5,4 +5,4 @@ This repository brings together the documentation, the catalogue and other infor
 
 **Under contruction**
 
-*We are currently working on the draft of [Working Notepad](WorkingNotepad.md).*
+*We are currently working on the draft of [Working Notepad](DOCS/WorkingNotepad.md).*
