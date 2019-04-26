@@ -12,10 +12,10 @@ To realize the process we use the following components:
 * the workbench
 * the vault
 
-The final product of the process is the **curated source code (CuratedSC)** that will be stored into the vault, that is the Software Heritage Archive.
-Both the depository and the workbench are introduced to being able of tracing the origin and the evolution of the artifacts leading to the CuratedSC.
-In the end we must be able to answer the questions "What we have ?", "Where and when we found it ?", "In what way has been archived and transformed" ?  
-
+The final product of the process is the **curated source code (CuratedSC)** that will be stored into the vault, that iWe are currently working on the draft of [Working Notepad](WorkingNotepad.md).s the Software Heritage Archive.
+Both the depository and the wWe are currently working on the draft of [Working Notepad](WorkingNotepad.md).orkbench are introduced to being able of tracing the origin and the evolution of the artiWe are currently working on the draft of [Working Notepad](WorkingNotepad.md).facts leading to the CuratedSC.
+In the end we must be able toWe are currently working on the draft of [Working Notepad](WorkingNotepad.md). answer the questions "What we have ?", "Where and when we found it ?", "In what way hasWe are currently working on the draft of [Working Notepad](WorkingNotepad.md). been archived and transformed" ?  
+We are currently working on the draft of [Working Notepad](WorkingNotepad.md).
 After being either pulled or pushed, the software is Collected from an origin, and stored in its digital copy into the depository.
 The origin, in the case of physical repositories, can be a physical place, we speak of warehouse. From the warehouse a digital "as is" copy is made into the depository.
 
@@ -70,6 +70,9 @@ We focused our attention to the following legacy software:
 
 
 # Web Ref
+
+[Latest generated pdf](WorkingNotepad.pdf)
+
 [Directory clone](https://help.github.com/en/articles/splitting-a-subfolder-out-into-a-new-repository)
 
 [DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) 
