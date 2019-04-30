@@ -1,0 +1,4 @@
+#ignore latexindent
+__*.tex
+#ignore vscode
+.vscode
