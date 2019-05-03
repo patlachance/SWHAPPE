@@ -22,6 +22,10 @@ Requirement 3 - preservation.  The furnishers should have standard support to SC
 6 - [Illustration requirement: provide the authors/scavengers with a standard way to save related documents (pictures, etc.) of historical relevance (that is, feed Wikidata)]
 
 7 - [Highlights on the current design: open source, GitHub, Wikidata, Science Stories]
+To realize the expressed design we choose GitHub.
+Nowadays, major technology companies and many Open Source software foundations host their open source project to GitHub, and, actually, it has become by far the most popular place to host open source code on the web.
+A CVS, where anyone can develop, curate, integrate and then submit changes to the project's maintainers is well suited for the multi-users acquisition process we describe.
+Moreover, GitHub offers extensive free disk space for open source projects, it is already integrated with the SoftwareHeritage crawler, realizing reliable preservation and convergence to on-line SC process.
 
 8 - [Experimental use: Run the process on a representative sample of SC developed in Pisa, in view of the 50th anniversary celebration, current candidates]
 

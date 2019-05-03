@@ -51,12 +51,18 @@ The origin, in the case of physical repositories, can be a physical place, we sp
 
 ## The Instantiation of the process: the di.unipi case
 
-To acquire legacy software of Department of Computer Science at the University of Pisa, we instantiated the model of SWHAP using GitHub as support.
+To acquire legacy software of Department of Computer Science at the University of Pisa, we instantiated the model of SWHAP using GitHub as materials support.
+
+Nowadays, major technology companies (Google, Facebook, Twitter etc) and many Open Source software foundations (Apache Foundation, Linux Kernel etc) host their open source project to GitHub, and actually GitHub has become by far the most popular place to host open source code on the web.
+A CVS is suited for multiple users operation like tha acquisition process we describe as anyone can develop, curate, perform correction and integrations and then use the pull-request feature to submit those changes to the project's maintainers.
+<!--; otherwise these steps need to be done with sorts of submission by email and integrate changes manually.-->
+Moreover, GitHub offers extensive free disk space for open source projects, it is already integrated with the SoftwareHeritage crawler. thus realizing reliable preservation and convergence to on-line SC process.
+<!--Finally GitHub offers facilities to compile the journal (in the form of commit history, where each change is tracked), the catalogue, some usefull collaboration and presentation and analisys tools.-->
 
 In particular, we choose GitHub as the material implementation of the depository and of the workbench as :
 
 * it is a well-established platform for storing open source project and to collaborate with others. It offers an extensive and reachable disk space at a convenient price - it is free for open source projects;
-* at the moment, the Software Heritage has already a crawler that feeds the vault from GitHub - we have an instantaneous realization of redundancy for persistence;
+* at the moment, the Software Heritage has already a crawler that feeds the vault from GitHub - we have an instantaneous realization of redundancy for persistence and convergence to the on-line software code acquisition process.;
 * it offers facilities to compile the journal (in the form of commit history, where each change is tracked) and the catalogue;
 * it offers collaboration tools (via team, issues, etc) and it is integrated with presentation tools.
 
