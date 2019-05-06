@@ -102,7 +102,7 @@ The main GitHub repository involved are
       * DATA
             Additional data
     
-    README.<span></span>md  and LICENCE.<span></span>md  as written by the origina author for historic memory.
+    README.<span></span>md  and LICENCE.<span></span>md  as written by the original author for historic memory.
 
 ![DIUNIPI SWHAP](SH_UNIPI_PROCESS.png)
 
@@ -149,8 +149,42 @@ We focused our attention to the following legacy software:
 
 # Code
 
-Generare pdf con bibliografia
+## Generare pdf con bibliografia da md
 ~~~
 pandoc --filter pandoc-citeproc --bibliography=WorkingNotepad.bib --variable classoption=twocolumn --variable papersize=a4paper -s WorkingNotepad.md -o WorkingNotepad.pdf
 ~~~
 <!-- TODO: 100 parole exteded abstract parte su implementazione github -->
+
+## Forkare repository da command line con API
+
+pro: viene segnato da chi forkato (come fork da web)
+contro: viene però forkato sull`utente, non sull`urganizzazione
+
+con variabili
+~~~
+curl -u $my_user_name https://api.github.com/repos/$upstream_repo_username/$upstream_repo_name/forks -d ''
+~~~
+
+senza varibili
+~~~
+curl -u 'scatenag' https://api.github.com/repos/unipisa/DIUNIPI-SWH-TEMPLATE/forks -d ''
+~~~
+
+alternativamente
+
+~~~
+ git clone https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE   
+
+ mv DIUNIPI-SWH-TEMPLATE SWH-GMM-LAB   
+
+ git remote remove origin  
+
+#per avere aggiornamenti dal repository originale
+ git remote add upstream https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE  
+
+#creare repository da web
+ git remote add origin https://github.com/Unipisa/SWH-CMM.git
+
+ git push -u origin master  
+
+~~~
