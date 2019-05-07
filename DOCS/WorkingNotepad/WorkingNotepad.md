@@ -146,6 +146,7 @@ We focused our attention to the following legacy software:
 * *[google doc precedente](https://docs.google.com/document/d/1oHqEwyZscRNWgcktnLXohNuNWvYM2fwCsuBHtYNH9FM/edit?usp=sharing)*
 * [CodeMeta](https://codemeta.github.io/crosswalk/)
 * [Esempio di acquisione di Silab1.1 su HAL](https://hal.archives-ouvertes.fr/hal-02090402v1)
+* [Spectrum - collection management standard per descrivere procedure su oggetti di collezioni / musei ](https://collectionstrust.org.uk/spectrum/spectrum-5/)
 
 # Code
 
