@@ -151,7 +151,7 @@ We focused our attention to the following legacy software:
 * [Esempio di acquisione di Silab1.1 su HAL](https://hal.archives-ouvertes.fr/hal-02090402v1)
 * [Spectrum - collection management standard per descrivere procedure su oggetti di collezioni / musei ](https://collectionstrust.org.uk/spectrum/spectrum-5/)
 
-# Code
+# Codice e note tecniche
 
 ## Generare pdf con bibliografia da md
 ~~~
@@ -159,7 +159,11 @@ pandoc --filter pandoc-citeproc --bibliography=WorkingNotepad.bib --variable cla
 ~~~
 <!-- TODO: 100 parole exteded abstract parte su implementazione github -->
 
-## Forkare repository da command line con API
+## Forkare repository 
+
+Per instanziare il processo a partire dal template: (almeno le seguenti soluzioni)
+
+1. forkare da command line con API 
 
 *pro:* viene segnato da chi forkato (come fork da web)
 
@@ -175,24 +179,40 @@ senza varibili
 curl -u 'scatenag' https://api.github.com/repos/unipisa/DIUNIPI-SWH-TEMPLATE/forks -d ''
 ~~~
 
-alternativamente
+2. clonare da command line
 
-~~~
- git clone https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE   
-
- mv DIUNIPI-SWH-TEMPLATE SWH-GMM-LAB   
-
- git remote remove origin  
-
-#per avere aggiornamenti dal repository originale
- git remote add upstream https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE  
-
-#creare repository da web
- git remote add origin https://github.com/Unipisa/SWH-CMM.git
-
- git push -u origin master  
-
-~~~
-vantaggio: rimane nell´organizzazione
+pro: rimane nell´organizzazione
 
 contro: non c`e traccia nel repository template del fatto che la fork sia avvenuta
+~~~
+$ git clone https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE   
+$ mv DIUNIPI-SWH-TEMPLATE SWH-<NOME_SW>-LAB
+$ git remote remove origin  
+#per avere aggiornamenti dal repository originale
+$ git remote add upstream https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE  
+#creare repository da web
+$ git remote add origin https://github.com/Unipisa/SWH-<NOME_SW>-LAB.git
+$ git push -u origin master  
+
+~~~
+
+*per [CMM](https://github.com/Unipisa/SWH-CMM-LAB) è stata adottata la soluzione 2*
+
+## Creazione Git sintetico
+
+Si suppone di creare uno script che fa una commit per ogni cartella.
+
+Autore e data del commit possono essere specificati così:
+
+~~~
+$ export GIT_AUTHOR_DATE="Wed Feb 16 14:00 2037 +0100"
+$ export GIT_COMMITTER_DATE="Wed Feb 16 14:00 2037 +0100"
+$ git commit
+~~~
+Altre variabili sono [qui](https://git-scm.com/book/it/v2/Git-Internals-Environment-Variables)
+
+Non ricostruendo l´esatto commit originario, ma solo da versione a versione, si pone il problema di come determinare l´autore della commit.
+
+*per il momento utilizziamo la regola: se una release è fatta da un solo autore si indica lui stesso, altrimenti si utilizza TeamReleaseXX e poi in ACTORS.<span>md si va a specificare quale sia il team.*
+
+Questa soluzione è il giusto compromesso tra dettaglio di informazione e costo dell`inplementazione. 
