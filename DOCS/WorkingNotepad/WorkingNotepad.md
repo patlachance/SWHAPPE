@@ -159,7 +159,7 @@ pandoc --filter pandoc-citeproc --bibliography=WorkingNotepad.bib --variable cla
 ## Forkare repository da command line con API
 
 pro: viene segnato da chi forkato (come fork da web)
-contro: viene però forkato sull`utente, non sull`urganizzazione
+contro: viene però forkato sull´utente, non sull´organizzazione
 
 con variabili
 ~~~
