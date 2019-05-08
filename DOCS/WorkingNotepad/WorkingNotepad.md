@@ -54,7 +54,7 @@ The origin, in the case of physical repositories, can be a physical place, we sp
 
 ## Process instantiation: SWHAP@DIUNIPI.IT
 
-To acquire the legacy software of the Department of Computer Science at the University of Pisa, we instantiated SWHAP using GitHub as materials (???) support.
+To acquire the legacy software of the Department of Computer Science at the University of Pisa, we instantiated SWHAP using GitHub as support.
 
 Nowadays, major technology companies (Google, Facebook, Twitter etc) and many Open Source software foundations (Apache Foundation, Linux Kernel etc) host their open source project to GitHub, and actually GitHub has become by far the most popular place to host open source code on the web.
 A CVS is suited for multiple users operation like tha acquisition process we describe as anyone can develop, curate, perform correction and integrations and then use the pull-request feature to submit those changes to the project's maintainers.
@@ -161,8 +161,9 @@ pandoc --filter pandoc-citeproc --bibliography=WorkingNotepad.bib --variable cla
 
 ## Forkare repository da command line con API
 
-pro: viene segnato da chi forkato (come fork da web)
-contro: viene però forkato sull´utente, non sull´organizzazione
+*pro:* viene segnato da chi forkato (come fork da web)
+
+*contro:* viene però forkato sull´utente, non sull´organizzazione
 
 con variabili
 ~~~
@@ -192,3 +193,6 @@ alternativamente
  git push -u origin master  
 
 ~~~
+vantaggio: rimane nell´organizzazione
+
+contro: non c`e traccia nel repository template del fatto che la fork sia avvenuta
