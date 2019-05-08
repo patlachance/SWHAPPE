@@ -83,7 +83,11 @@ The implementation has involved the skeletal definition of several GitHub reposi
             Contains references on where the physical source material is stored, possibly with some instructional references to contact.
             When the depository is done, the file content will be copied inside the DIUNIPI4SWH CATALOGUE.<span></span>md .
         * JOURNAL.<span></span>md 
-            Contains a log of what has ben done, by whom and in what way is been done. 
+            Contains a log of what has ben done, by whom and in what way is been done.
+        * ACTORS.<span></span>md 
+            Contains references and details about the people cited in the JOURNAL.<span></span>md. 
+            For Authors it may contains current and historical data.
+            It may contains many different roles: Authors, Collectors, Curators. 
         * README.<span></span>md 
             Contains a brief presentation of the SW_NAME and on their authors.
             Contains a link to other files and section of the repository itself.
