@@ -1,5 +1,5 @@
 
-# The SWHAP@DIUNIPI.ITbra
+# The SWHAP@DIUNIPI.IT
 
 Here we present the SoftwareHeritageAcquisitionProcess (SWHAPv0.1) we elaborated to acquire software at the Department of Computer Science of University of Pisa.
 It should be considered as v0.1 (its first version): revisions and extension will surely come as the topic is broad and somehow sprawling and tentacular.
