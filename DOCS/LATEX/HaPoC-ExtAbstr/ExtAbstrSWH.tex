@@ -121,11 +121,16 @@
 1 - Software is everywhere,  binding our personal and social lives, embodying a vast part of the technological knowledge that powers our industry, and fuels innovation. Software is an essential mediator to access digital information and a pillar of modern research in all fields. Actually, a rapidly increasing part of our collective knowledge is embodied in, or dependent on software artifacts. 
 
 But software does not come out of the blue: it is written by humans, in the form of software Source Code (SC), which is a precious, unique form of knowledge that, besides being readily translated into machine executable form, should also "`be written for humans to read"' \cite{AbelsonS85}, and "`provides a view into the mind of the designer"' \cite{Shustek06}. It is essential to preserve this precious technical, scientific and cultural heritage over the long term.
+\carlo{cite http://www.softwarepreservationnetwork.org/ ?}
+\
+
+\noindent
+Software Heritage is a non profit, multi-stakeholder initiative, launched by Inria in partnership with Unesco, that has taken over this challenge. Its stated mission is to collect, preserve, and make readily accessible all the software source code ever written, in what we call the Software Heritage \emph{Vault}. 
 
 \
 
 \noindent
-Software Heritage is a non profit, multi-stakeholder initiative, launched by Inria in partnership with Unesco, that has taken over this challenge. Its stated mission is to collect, preserve, and make readily accessible all the software source code ever written, in what we call the Software Heritage \emph{Vault}. Software Heritage designed specific strategies to collect software according to its nature~\cite{CACM2018}. 
+Software Heritage designed specific strategies to collect software according to its nature~\cite{Abramatic:2018:BUA:3281635.3183558}. 
 
 For software that is easily accessible online, and that can be copied without specific legal authorizations, the approach is based on automation. This way, as of April 2019, Software Heritage has already archived more than 5 billion unique SC files from over 89 million different origins, focusing in priority on popular software development platforms like GitHub and GitLab and rescuing SC from Google Code and Gitorious that hosted more than 1.5 million projects, and now shutdown.
 
@@ -165,30 +170,38 @@ GitHub is, first of all, a Concurrent Versions System, where any user can develo
 
 Moreover, GitHub is already integrated with the crawler used so far in the automated SC collection: this will facilitate the convergence to the current on-line SC process, with its reliable preservation features. \carlo{Guido: Ho colto il senso?}
 
-To facilitate the access to the stored items, we are evaluating the proposals of the CodeMeta Project \cite{CodeMeta}, whose mission is to raise the level of the infrastructure to support the preservation, discovery, reuse, and attribution of software to that of other research products such as journal articles and research data.
+To facilitate the access to the stored SC, we are evaluating the indexing proposals of the CodeMeta Project \cite{CodeMeta}, whose mission is to raise the level of the infrastructure to support the preservation, discovery, reuse, and attribution of software to that of other research products such as journal articles and research data. 
+
 \
 
 \noindent
-To archive the ancillary documents, Wikimedia \cite{wiki:Wikimedia_movement} is the natural choice, given its openess and freeness.  
+To archive the ancillary documents, Wikidata \cite{wiki:Wikidata} is the natural choice, as well as MediaWiki \cite{wiki:Mediawiki}to illustrate it to the public, since they are multilingual, free and open. To build efficient indexing and querying mechanisms of the data to facilitate the illustration process we are evaluating \emph{Schema.org} \cite{w3:SchemaOrg}, which is already integrated with CodeMeta.
+\carlo{Roberto: è consistente?}   
 
+\
+
+\noindent
+%8 - [Experimental use: 
+Our long term goal is to run the process on a representative sample of SC developed in Pisa. The current test cases are examples of offline SC:
+\begin{description}
+	\item[CMM] - \carlo{Guido: puoi estrarre dall'articolo una sintetica descrizione, pf?} The challenge here is to move from the ad hoc versioning system used by the authors to Git: Spinelli's monumental experience with Unix \cite{Spi16g}is the main source of inspiration, here. 
+	\item[TAUMUS] - a system for Digital Music generation on the TAU2 audio terminal~\cite{TAU2:1976}. This case will allow us to explore how to deal with offline supports, like SC print-outs and transcriptions of terminal sessions on overhead projectors foils.
+\end{description}
+%\carlo{maestro del trionfo della morte}
+
+\
+
+\noindent
+We are confident that we can demonstrate the feasibility of a process to preserve and make publicly available the SC heritage, a process which can be exported worldwide, also thanks to the support of UNESCO \cite{UNESCO:ParisCall:2018}  
+\carlo{ also, it will support the objectives of Open Science. On a more philosophical side: is the goal sound or...?}
 \carlo{\cite{SoftwareCitation2016} non ha a che fare con le ontologie del software, ma solo con i criteri di citazione del software: metterla nelle cose ancora da fare, alla voce "`Come aggiungere una sezione \emph{cite as} al SC salvato} 
 \
-
-\noindent
-8 - [Experimental use: Run the process on a representative sample of SC developed in Pisa, in view of the 50th anniversary celebration, current candidates] \carlo{maestro del trionfo della morte}
-
-\
-
-\noindent
-9 - [Conclusions: Confident that we can demonstrate the feasibility of a process which can be exported worldwide, with UNESCO support; also, it will support the objectives of Open Science. On a more philosophical side: is the goal sound or...?] 
-
 \
 
 %\noindent
 %10 - References 
 
 \nocite{*}
-\guido{sarebbe da citare Spinellis e GNU, ad ora assenti}
 \printbibliography
 
 \listoftodos[Notes and ToDo]
