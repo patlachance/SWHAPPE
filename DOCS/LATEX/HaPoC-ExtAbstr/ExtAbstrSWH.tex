@@ -118,90 +118,85 @@
 
 %{ten paragraphs, 100 words each, ten lines each in this format on the average}
 \noindent              
-1 - Software is everywhere,  binding our personal and social lives, embodying a vast part of the technological knowledge that powers our industry, and fuels innovation. Software is an essential mediator to access digital information and a pillar of modern research in all fields. Actually, a rapidly increasing part of our collective knowledge is embodied in, or dependent on software artifacts. 
+Software is everywhere,  binding our personal and social lives, embodying a vast part of the technological knowledge that powers our industry, supports moder research, mediates access to gigital content and fuels innovation. In a word, a rapidly increasing part of our collective knowledge is embodied in, or dependent on software artifacts. 
 
-But software does not come out of the blue: it is written by humans, in the form of software Source Code (SC), which is a precious, unique form of knowledge that, besides being readily translated into machine executable form, should also "`be written for humans to read"' \cite{AbelsonS85}, and "`provides a view into the mind of the designer"' \cite{Shustek06}. It is essential to preserve this precious technical, scientific and cultural heritage over the long term.
-\carlo{cite http://www.softwarepreservationnetwork.org/ ?}
-\
+Software does not come out of the blue: it is written by humans, in the form of software Source Code (SC), is a precious, unique form of knowledge that, besides being readily translated into machine executable form, should also "`be written for humans to read"' \cite{AbelsonS85}, and "`provides a view into the mind of the designer"' \cite{Shustek06}. It is essential to preserve this precious technical, scientific and cultural heritage over the long term.\\
 
 \noindent
-Software Heritage is a non profit, multi-stakeholder initiative, launched by Inria in partnership with Unesco, that has taken over this challenge. Its stated mission is to collect, preserve, and make readily accessible all the software source code ever written, in what we call the Software Heritage \emph{Vault}. 
+Software Heritage is a non profit, multi-stakeholder initiative, launched by Inria in partnership with Unesco, that has taken over this challenge. Its stated mission is to collect, preserve, and make readily accessible all the software source code ever written, in the Software Heritage \emph{Archive}.\\
 
-\
+Software Heritage designed specific strategies to collect software according to its nature~\cite{swhcacm2018}. 
 
-\noindent
-Software Heritage designed specific strategies to collect software according to its nature~\cite{Abramatic:2018:BUA:3281635.3183558}. 
+For software that is easily accessible online, and that can be copied without specific legal authorizations, the approach is based on automation. This way, as of May 2019, Software Heritage has already archived almost 6 billion unique SC files from over 89 million different origins, focusing in priority on popular software development platforms like GitHub and GitLab and rescuing SC from Google Code and Gitorious that hosted more than 1.5 million projects, and now shutdown.
 
-For software that is easily accessible online, and that can be copied without specific legal authorizations, the approach is based on automation. This way, as of April 2019, Software Heritage has already archived more than 5 billion unique SC files from over 89 million different origins, focusing in priority on popular software development platforms like GitHub and GitLab and rescuing SC from Google Code and Gitorious that hosted more than 1.5 million projects, and now shutdown.
-
-For source code that is not easily accessible online or requires curation, we take a different approach, based on a focused search, and with significant human intervention. The \DIPISASWHinitiative is the first major step in this direction: its goal is to design and evaluate a process to rescue, curate and illustrate landmark legacy SC. This process, the SoftWare Heritage Acquisition Process (SWHAP) needs to take into account the variety of physical media where the source code may be stored, the multiple copies and versions that may be available, the potential input of the authors that are still alive, and the existence of ancillary material like documentation, articles, books, technical reports, email exchanges.
-
-\
+For source code that is not easily accessible online or requires curation, we take a different approach, based on a focused search, and with significant human intervention. The \DIPISASWHinitiative is the first major step in this direction: its goal is to design and evaluate a process, that we call Software Heritage Acquisition Process (SWHAP), to \emph{rescue, curate and illustrate} landmark legacy SC. It needs to cope with the variety of physical media where the source code may be stored, the multiple copies and versions that may be available, the potential input of the authors that are still alive, and the existence of ancillary material like documentation, articles, books, technical reports, email exchanges.\\
 
 \noindent
-The purpose of our contribution is to present the approach we are taking with the definition, pilot implementation and experimental usage of SWHAP, in order to get feedback from the HaPoC community on our goals and methods. 
+Our purpose is to present the approach we are taking with the definition, pilot implementation and experimental usage of SWHAP, in order to get feedback from the HaPoC community on our goals and methods. 
 
-First of all, we identified some high-level requirements, for preservation, curation and illustration. They should accommodate all the furnishers, be them the scavengers searching around for relevant SC or the authors conferring their own work to SWH. Coverage of both offline and online SC is also required. 
-\begin{enumerate}
-	\item (preservation) The furnishers should have a standard way to save the original products, to allow further refined study by future stakeholders. Therefore, there should be a place where to store safely:
-	\begin{enumerate}
-		\item in case of offline SC, the furnished SC supports (Warehouse, for later reference);
-		\item in any case, the raw digital version of the furnished SC either as is, for online SC, or after a suitable extraction from its physical support, for offline SC (Depository, for later reference).
-	\end{enumerate}
-	\item (preservation) The furnishers should have a standard support to SC curation, that is, a standard environment (Workbench, for later reference) to prepare what goes into the  Vault, and to support the its transfer. 
-	\item (illustration) The furnishers should have a standard way to save documents (pictures, etc.) of historical relevance related to the recovered SC. The illustrators should have easy access to it. This entails that there should be:
-	\begin{enumerate}
-		\item a standard place where to store this information;
-		\item a standard way to index/tag it, to facilitate its later use for illustration.
-		\end{enumerate}
-	\item (non--functional) The activities related to offline (legacy) SC should converge as early as possible to those related to online SC.
-	\item (non--functional) Any supporting implementation should be 
-	based on open and free tools and standards.
-	\item (non--functional) Any supporting implementation should provide support for 
-the cooperation and coordination of the many actors playing the many roles of the acquisition process.	
-\end{enumerate}
+\paragraph{Requirements}
+First of all, we identified the following high-level requirements, for the activities of \emph{preservation, curation and illustration}.
 
-\
+% They should accommodate all the furnishers, be them the scavengers searching around for relevant SC or the authors conferring their own work to SWH.
 
-\noindent
-The most relevant choices that are driving our design of the experimental  environment supporting SWHAP follow. The backbone is GitHub, currently by far the most popular place to host open source code on the web. Indeed, it is hosting the open source projects of many major technology companies and Open Source software foundations.
+% Coverage of both offline and online SC is also required.
 
-GitHub is, first of all, a Concurrent Versions System, where any user can develop, curate, integrate contributions to the project, and then submit them  for acceptance or revision to the project's maintainers. Besides, GitHub also offers free space to open source projects: as such it seems well suited as the free and open backbone of the multi-users acquisition process we aim at.
-
-Moreover, GitHub is already integrated with the crawler used so far in the automated SC collection: this will facilitate the convergence to the current on-line SC process, with its reliable preservation features. \carlo{Guido: Ho colto il senso?}
-
-To facilitate the access to the stored SC, we are evaluating the indexing proposals of the CodeMeta Project \cite{CodeMeta}, whose mission is to raise the level of the infrastructure to support the preservation, discovery, reuse, and attribution of software to that of other research products such as journal articles and research data. 
-
-\
-
-\noindent
-To archive the ancillary documents, Wikidata \cite{wiki:Wikidata} is the natural choice, as well as MediaWiki \cite{wiki:Mediawiki}to illustrate it to the public, since they are multilingual, free and open. To build efficient indexing and querying mechanisms of the data to facilitate the illustration process we are evaluating \emph{Schema.org} \cite{w3:SchemaOrg}, which is already integrated with CodeMeta.
-\carlo{Roberto: è consistente?}   
-
-\
-
-\noindent
-%8 - [Experimental use: 
-Our long term goal is to run the process on a representative sample of SC developed in Pisa. The current test cases are examples of offline SC:
 \begin{description}
-	\item[CMM] - \carlo{Guido: puoi estrarre dall'articolo una sintetica descrizione, pf?} The challenge here is to move from the ad hoc versioning system used by the authors to Git: Spinelli's monumental experience with Unix \cite{Spi16g}is the main source of inspiration, here. 
-	\item[TAUMUS] - a system for Digital Music generation on the TAU2 audio terminal~\cite{TAU2:1976}. This case will allow us to explore how to deal with offline supports, like SC print-outs and transcriptions of terminal sessions on overhead projectors foils.
+	\item[Preservation] of the artifacts is a primary concern: we need a place where to save the original raw material that will be later studied and manipulated. Depending on the nature of the raw material, these places may be physical or virtual, as follows:
+	\begin{description}
+		\item[Warehouse]: a physical location where physical raw material is safely archived and stored, with the usual acquisition process (see for example~\cite{Spectrum})
+		\item[Depository]: a virtual space where is safely archived digital raw materialm, either obtained directly in digital form, or extracted from physical supports; a proper acquisition process must be put in place to ensure that this material is traceable.
+        \end{description}
+      \item[Curation] of the raw digital material found in the Depository will produce both cleaned up and historified source code that can be ingested in the Software Heritage Archive, and ancillary material that may be deposited in locations like WikiData.
+        \begin{description}
+          \item[Workbench] The curation process for source code can be complex, as can be seen in the great example of the history of Unix~\cite{Spi16g}, and we recommend to have a standard environment where it can be carried out, with support for logging the various operations.
+        \end{description}
+      \item[Illustration] of the history of relevant source code may require access to all of the above locations: the Warehouse, the Depository, the Workbench, the Software Heritage Archive, WikiData, as well as to other external resources.
 \end{description}
-%\carlo{maestro del trionfo della morte}
 
-\
+We also agreed on the following supporting principles
+
+\begin{description}
+	\item[Convergence] The activities related to offline (legacy) SC should converge as early as possible to those related to online SC.
+	\item[Openness] Any supporting implementation should be 
+	based on open and free tools and standards.
+	\item[Interoperability] Any supporting implementation should provide support for 
+the cooperation and coordination of the many actors playing the many roles of the acquisition process.	
+\end{description}
 
 \noindent
-We are confident that we can demonstrate the feasibility of a process to preserve and make publicly available the SC heritage, a process which can be exported worldwide, also thanks to the support of UNESCO \cite{UNESCO:ParisCall:2018}  
-\carlo{ also, it will support the objectives of Open Science. On a more philosophical side: is the goal sound or...?}
-\carlo{\cite{SoftwareCitation2016} non ha a che fare con le ontologie del software, ma solo con i criteri di citazione del software: metterla nelle cose ancora da fare, alla voce "`Come aggiungere una sezione \emph{cite as} al SC salvato} 
-\
-\
+We are currently experimenting with a particular implementation of the process where the two virtual locations, Depository and Workbench, use GitHub as a common technological backbone.
+
+GitHub is a platform that offers not only a Version Control System, extremely
+useful for tracking various version of digital artifacts, but also a wealth of
+tools to facilitate collaboration among a variety of users that seems very well
+suite for supporting the multi-users acquisition process we aim at.
+
+Moreover, GitHub is already automatically archived by Software Heritage, which
+means that all the artefacts stored in the Depository and the steps performed in
+the Workbench will be savely archived alongside the results of the curation process: we believe this will facilitate convergence.
+
+To facilitate the access to the artifacts, we need to adopt a standard ontology, and for this we are evaluating the CodeMeta Project \cite{CodeMeta}, that provides a standard vocabulary for describing software artifacts.
+
+\noindent
+To archive the ancillary documents, Wikimedia \cite{wiki:Wikimedia_movement} is the natural choice, given its openess and freeness.  
+
+
+Over the next months, we will run the process on a representative sample of SC
+developed in Pisa, in view of the 50th anniversary celebration, where we will
+present the first results\todo{current candidates?}
+
+We hope to demonstrate the feasibility of a process that, leveraging the
+powerful infrastructures available today, ranging from Software Heritage to
+Wikimedia, through GitHub, will be easy to be adopted worldwide by all the
+passionate people and institutions that want to contribute to rebuilding
+the history of computer programming.
 
 %\noindent
 %10 - References 
 
-\nocite{*}
+
+%\nocite{*}
 \printbibliography
 
 \listoftodos[Notes and ToDo]
