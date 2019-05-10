@@ -3,7 +3,7 @@
 ## Authors
 
 * Name Surname :
-  * Hystorical :
+  * Historical :
   * Actual: 
 
 ## Collectors
