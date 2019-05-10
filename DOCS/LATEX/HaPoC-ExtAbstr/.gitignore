@@ -265,3 +265,7 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
+
+## MikTex
+*.tcp
+*.tps
