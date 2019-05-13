@@ -60,7 +60,7 @@
 \usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
     
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\hyphenation{INRIA}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Options / Modifications
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,7 +69,7 @@
 %% ==> TeXnicCenter supplies some possible option files
 %% ==> with its templates (File | New from Template...).
 %
-\newcommand{\DIPISASWHinitiative}{DIPISASWHinitiative }
+\newcommand{\DIPISASWHinitiative}{SWH@DIPISA }
 \newcommand{\TAUMUS}{TAUMUS }
 \renewcommand{\th}{$^{th}$ }
 \newcommand{\sourcecode}{SC}
@@ -85,7 +85,7 @@
 \bibliography{ExtAbstrSWH}
 %
 \title{Saving the Software Heritage:
-				\\ the process  
+				\\ the Process  
 				\\ 	\large Extended Abstract
 }
 \author{
@@ -119,21 +119,21 @@
 
 %{ten paragraphs, 100 words each, ten lines each in this format on the average}
 \noindent              
-Software is everywhere,  binding our personal and social lives, embodying a vast part of the technological knowledge that powers our industry, supports modern research, mediates access to digital content and fuels innovation. In a word, a rapidly increasing part of our collective knowledge is embodied in, or dependent on software artifacts. 
+Software is everywhere,  binding our personal and social lives, embodying a vast part of the technological knowledge that powers our industry, supports modern research, mediates access to digital content and fuels innovation. In a word, a rapidly increasing part of our collective knowledge is embodied in, or depends on software artifacts. 
 
-Software does not come out of the blue: it is written by humans, in the form of software Source Code (SC), is a precious, unique form of knowledge that, besides being readily translated into machine executable form, should also "`be written for humans to read"' \cite{AbelsonS85}, and "`provides a view into the mind of the designer"' \cite{Shustek06}. It is essential to preserve this precious technical, scientific and cultural heritage over the long term.\\
+Software does not come out of the blue: it is written by humans, in the form of software Source Code (SC), is a precious, unique form of knowledge that, besides being readily translated into machine executable form, should also ``be written for humans to read'' \cite{AbelsonS85}, and ``provides a view into the mind of the designer'' \cite{Shustek06}. It is essential to preserve this precious technical, scientific and cultural heritage over the long term.\\
 
 \noindent
-Software Heritage is a non profit, multi-stakeholder initiative, launched by Inria in partnership with Unesco, that has taken over this challenge. Its stated mission is to collect, preserve, and make readily accessible all the software source code ever written, in the Software Heritage \emph{Archive}.\\
+Software Heritage is a non profit, multi-stakeholder initiative, launched by {INRIA} in partnership with {UNESCO}, that has taken over this challenge. Its stated mission is to collect, preserve, and make readily accessible all the software source code ever written, in the Software Heritage \emph{Archive}.\\
 
 Software Heritage designed specific strategies to collect software according to its nature~\cite{swhcacm2018}. 
 
 For software that is easily accessible online, and that can be copied without specific legal authorizations, the approach is based on automation. This way, as of May 2019, Software Heritage has already archived almost 6 billion unique SC files from over 89 million different origins, focusing in priority on popular software development platforms like GitHub and GitLab and rescuing SC from Google Code and Gitorious that hosted more than 1.5 million projects, and now shutdown.
 
-For source code that is not easily accessible online or requires curation, we take a different approach, based on a focused search, and with significant human intervention. The \DIPISASWHinitiative is the first major step in this direction: its goal is to design and evaluate a process, that we call Software Heritage Acquisition Process (SWHAP), to \emph{rescue, curate and illustrate} landmark legacy SC. It needs to cope with the variety of physical media where the source code may be stored, the multiple copies and versions that may be available, the potential input of the authors that are still alive, and the existence of ancillary material like documentation, articles, books, technical reports, email exchanges.\\
+For source code that is not easily accessible online or requires curation, a different approach is needed, based on a focused search, and with significant human intervention: the Software Heritage Acquisition Process (SWHAP) to \emph{rescue, curate and illustrate} landmark legacy SC. SWAP needs to cope with the variety of physical media where the source code may be stored, the multiple copies and versions that may be available, the potential input of the authors that are still alive, and the existence of ancillary material like documentation, articles, books, technical reports, email exchanges.\\
 
 \noindent
-Our purpose is to present the approach we are taking with the definition, pilot implementation and experimental usage of SWHAP, in order to get feedback from the HaPoC community on our goals and methods. 
+This contribution presents the approach we are taking with the definition, pilot implementation and experimental usage of SWHAP, in order to get feedback from the HaPoC community on our goals and methods. 
 
 \paragraph{Requirements}
 First of all, we identified the following high-level requirements, for the activities of \emph{preservation, curation and illustration}.
@@ -152,10 +152,10 @@ First of all, we identified the following high-level requirements, for the activ
         \begin{description}
           \item[Workbench] The curation process for source code can be complex, as can be seen in the great example of the history of Unix~\cite{Spi16g}, and we recommend to have a standard environment where it can be carried out, with support for logging the various operations.
         \end{description}
-      \item[Illustration] of the history of relevant source code may require access to all of the above locations: the Warehouse, the Depository, the Workbench, the Software Heritage Archive, WikiData, as well as to other external resources.
+      \item[Illustration] of the history of relevant source code may require access to all of the above locations: the Warehouse, the Depository, the Workbench, the Software Heritage Archive, WikiData, as well as other external resources.
 \end{description}
 
-We also agreed on the following supporting principles
+We also agreed on the following supporting principles: 
 
 \begin{description}
 	\item[Convergence] The activities related to offline (legacy) SC should converge as early as possible to those related to online SC.
@@ -173,7 +173,7 @@ useful for tracking various version of digital artifacts, but also a wealth of
 tools to facilitate collaboration among a variety of users that seems very well
 suited for supporting the multi-users acquisition process we aim at.
 
-Moreover, GitHub is already automatically archived by Software Heritage, which
+Moreover, the public part of GitHub is already automatically archived by Software Heritage, which
 means that all the artifacts stored in the Depository and the steps performed in
 the Workbench will be safely archived alongside the results of the curation process: we believe this will facilitate convergence.
 
@@ -188,7 +188,7 @@ developed in Pisa,  including i) a representative offline digital software of th
 We hope to demonstrate the feasibility of a process that, leveraging the
 powerful infrastructures available today, ranging from Software Heritage to
 Wikimedia, through GitHub, will be easy to be adopted worldwide by all the
-passionate people and institutions that want to contribute to rebuilding
+passionate people and institutions that want to contribute and rebuild 
 the history of computer programming.
 
 %\noindent
