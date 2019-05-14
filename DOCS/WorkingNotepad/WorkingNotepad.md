@@ -164,7 +164,7 @@ pandoc --filter pandoc-citeproc --bibliography=WorkingNotepad.bib --variable cla
 <!-- TODO: 100 parole exteded abstract parte su implementazione github -->
 
 ## Forkare repository 
-
+<del> 
 Per instanziare il processo a partire dal template: (almeno le seguenti soluzioni)
 
 1. forkare da command line con API 
@@ -182,7 +182,7 @@ senza varibili
 ~~~
 curl -u 'scatenag' https://api.github.com/repos/unipisa/DIUNIPI-SWH-TEMPLATE/forks -d ''
 ~~~
-
+</del> 
 2. clonare da command line
 
 pro: rimane nell´organizzazione
@@ -201,6 +201,18 @@ $ git push -u origin master
 ~~~
 
 *per [CMM](https://github.com/Unipisa/SWH-CMM-LAB) è stata adottata la soluzione 2*
+
+Se si vogliono ricevere aggiornamente dal template
+
+~~~
+$ git checkout -b aggiornamenti_da_template
+$ git pull upstream
+#gestire merge accettandoli entrambi i contributi
+$ git add .
+$ git commit -m "aggiornamenti da template"
+$ git checkout master
+$ git merge aggiornamenti_da_template 
+~~~
 
 ## Creazione Git sintetico
 
