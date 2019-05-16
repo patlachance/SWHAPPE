@@ -195,6 +195,10 @@ $ git remote remove origin
 #per avere aggiornamenti dal repository originale
 $ git remote add upstream https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE  
 #creare repository da web
+##TODO: creare repository da API con <https://developer.github.com/v3/repos/#create>
+## Replace ACCESS_TOKEN with Token and NEW_REPO_NAME with your New Repository Name
+## ´curl -H "Authorization: token ACCESS_TOKEN" --data '{"name":"NEW_REPO_NAME"}' https://api.github.com/user/repos´
+## ´curl -H "Authorization: token ACCESS_TOKEN" --data '{"name":"NEW_REPO_NAME"}' https://api.github.com/orgs/ORGANISATION_NAME/repos´
 $ git remote add origin https://github.com/Unipisa/SWH-<NOME_SW>-LAB.git
 $ git push -u origin master  
 
