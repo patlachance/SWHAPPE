@@ -195,10 +195,7 @@ $ git remote remove origin
 #per avere aggiornamenti dal repository originale
 $ git remote add upstream https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE  
 #creare repository da web o tramite api come segue
-##TODO: creare repository da API con <https://developer.github.com/v3/repos/#create>
-## Replace ACCESS_TOKEN with Token and NEW_REPO_NAME with your New Repository Name
-## ´curl -H "Authorization: token ACCESS_TOKEN" --data '{"name":"NEW_REPO_NAME"}' https://api.github.com/user/repos´
-´curl -H "Authorization: token ACCESS_TOKEN" --data '{"name":"NEW_REPO_NAME"}' https://api.github.com/orgs//repos´
+curl -H "Authorization: token ACCESS_TOKEN" --data '{"name":"SWH-<NOME_SW>-LAB"}' https://api.github.com/orgs/Unipisa/repos
 $ git remote add origin https://github.com/Unipisa/SWH-<NOME_SW>-LAB.git
 $ git push -u origin master  
 
@@ -236,3 +233,15 @@ Non ricostruendo l´esatto commit originario, ma solo da versione a versione, si
 *per il momento utilizziamo la regola: se una release è fatta da un solo autore si indica lui stesso, altrimenti si utilizza TeamReleaseXX e poi in ACTORS.<span>md si va a specificare quale sia il team.*
 
 Questa soluzione è il giusto compromesso tra dettaglio di informazione e costo dell`inplementazione. 
+
+
+
+~~~
+cd firstRepo
+git remote add other path/to/otherRepo
+git fetch other
+git checkout -b merged
+git merge --allow-unrelated-histories other/master
+#then
+git push -u origin <branch>
+~~~
