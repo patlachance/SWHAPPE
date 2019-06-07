@@ -9,7 +9,7 @@ In fact, acquiring some case studies software we aim at defining an operational 
 this physical storage place
 ## The Process
 
-**The Software Heritage Acquisition Process (SWHAP)** is the process of acquisition of software source code from a request (*push* acquisition) or from a ??? 
+**The Software Heritage Acquisition Process (SWHAP)** is the process of acquisition of software source code from a request (*push* acquisition) or from a discover (*pull* acquisition).
 
 To acquire software, we consider *source code* - rather than executables, for its value in terms of readability and understanding of the operation of the system - possibly with its *version history* - as an analogous of the strata of an archeological site, providing insights on the development process of the software.
 
