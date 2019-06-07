@@ -245,3 +245,17 @@ git merge --allow-unrelated-histories other/master
 #then
 git push -u origin <branch>
 ~~~
+
+## Archiviare repository
+<https://help.github.com/en/articles/archiving-repositories>
+
+## Fine depostiory
+~~~
+# git clone SWH-$SW_NAME-LAB.git
+# cd SWH-$SW+NAME-LAB
+# git filter-branch --prune-empty --subdirectory-filter DEPOSITORY_TEMPLATE master
+# creare repository SWH-$SW_NAME-DEPOSITORY
+# git set-url origin SWH-$SW_NAME-DEPOSITORY.git
+# aggiornare journal con data chiusure repository
+# achiviare repository
+-~~~
