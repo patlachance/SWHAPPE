@@ -257,5 +257,10 @@ git push -u origin <branch>
 # creare repository SWH-$SW_NAME-DEPOSITORY
 # git set-url origin SWH-$SW_NAME-DEPOSITORY.git
 # aggiornare journal con data chiusure repository
-# achiviare repository
+# achiviare repository e settarlo pubblico
+# cd ..
+# cd SWH-$SW_NAME-LAB
+# cp DEPOSITORY_TEMPLATE/ACTORS.md WORKBENCH_TEMPLATE   
+# cp -r DEPOSITORY_TEMPLATE/SOURCE WORKBENCH_TEMPLATE/  
+# rm -R DEPOSITORY_TEMPLATE
 -~~~
