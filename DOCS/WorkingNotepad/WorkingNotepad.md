@@ -166,7 +166,7 @@ pandoc --filter pandoc-citeproc --bibliography=WorkingNotepad.bib --variable cla
 
 TODO: rimodellare dal [supporto ufficiale](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) ad i Template da parte di GitHub 
 
-![DIUNIPI SWHAP final result](./images/template_repository.png)
+![create repository from template](./images/template_repository.png)
 
 
 
@@ -189,7 +189,8 @@ senza varibili
 curl -u 'scatenag' https://api.github.com/repos/unipisa/DIUNIPI-SWH-TEMPLATE/forks -d ''
 ~~~
 </del> 
-2. clonare da command line
+
+**2. clonare da command line**
 
 pro: rimane nell´organizzazione
 
@@ -209,7 +210,43 @@ $ git push -u origin master
 
 *per [CMM](https://github.com/Unipisa/SWH-CMM-LAB) è stata adottata la soluzione 2*
 
-Se si vogliono ricevere aggiornamente dal template
+
+**3. Generate from [DIUNIPI-SWH-TEMPLATE](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE) via GitHub.com**
+
+*suggested solution*
+
+Make a new repository from DIUNIPI-SWH-TEMPLATE (see the following figure)
+
+   1. go to [DIUNIPI-SWH-TEMPLATE](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE) and click on ["Use this template"](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE/generate)
+
+![create LAB repository from template](./images/template_repository_lab-1.png)
+
+   2. fill the name with SWG-$SW_NAME-LAB and the description as in figure
+
+![create LAB repository from template](./images/template_repository_lab-2.png)
+
+   3. You got a new repository with the file and directory structure of [DIUNIPI-SWH-TEMPLATE](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE)
+
+![create LAB repository from template](./images/template_repository_lab-3.png)
+
+
+
+then on terminal
+
+~~~
+$ mkdir SWH-<SW_NAME>-LAB
+$ cd SWH-<SW_NAME>-LAB
+$ git init
+$ git remote add origin https://github.com/Unipisa/SWH-<SW_NAME>-LAB.git
+$ git push -u origin master
+
+~~~
+
+pro: rimane nell´organizzazione con traccia della provenzienza
+
+contro: richiede interazione manuale
+
+**Se si vogliono ricevere aggiornamente dal template**
 
 ~~~
 $ git checkout -b aggiornamenti_da_template
