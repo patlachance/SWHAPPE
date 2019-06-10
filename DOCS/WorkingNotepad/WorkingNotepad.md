@@ -111,7 +111,7 @@ The implementation has involved the skeletal definition of several GitHub reposi
     
     README.<span></span>md  and LICENCE.<span></span>md  as written by the original author for historic memory.
 
-![DIUNIPI SWHAP](SH_UNIPI_PROCESS.png)
+![DIUNIPI SWHAP](./images/SH_UNIPI_PROCESS.png)
 
 The process here is as follows (see Fig. 1):
 
@@ -127,7 +127,7 @@ For this reason, HOWTO<span></span>.md contains distinct guidelines for the many
 
 The final picture, with curation process ended, is as in see Fig. 2.
 
-![DIUNIPI SWHAP final result](SH_UNIPI_PROCESS_RESULT.png)
+![DIUNIPI SWHAP final result](./images/SH_UNIPI_PROCESS_RESULT.png)
 
 # Use cases
 
@@ -161,9 +161,15 @@ We focused our attention to the following legacy software:
 ~~~
 pandoc --filter pandoc-citeproc --bibliography=WorkingNotepad.bib --variable classoption=twocolumn --variable papersize=a4paper -s WorkingNotepad.md -o WorkingNotepad.pdf
 ~~~
-<!-- TODO: 100 parole exteded abstract parte su implementazione github -->
 
 ## Forkare repository 
+
+TODO: rimodellare dal [supporto ufficiale](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) ad i Template da parte di GitHub 
+
+![DIUNIPI SWHAP final result](./images/template_repository.png)
+
+
+
 <del> 
 Per instanziare il processo a partire dal template: (almeno le seguenti soluzioni)
 
@@ -264,3 +270,4 @@ git push -u origin <branch>
 # cp -r DEPOSITORY_TEMPLATE/SOURCE WORKBENCH_TEMPLATE/  
 # rm -R DEPOSITORY_TEMPLATE
 -~~~
+
