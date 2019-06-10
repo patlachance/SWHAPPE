@@ -1,9 +1,9 @@
 # DIUNIPI4SHW Catalougue
 
 
-* **[CMM]()**
+* **CMM**
   * *Depository:* [SWH-CMM-DEPOSITORY](https://github.com/Unipisa/SWH-CMM-DEPOSITORY)
   * *Workbench:* [SWH-CMM-LAB](https://github.com/Unipisa/SWH-CMM-LAB)
 
-* **[TAUMUS]()**
-  * *Workbanch:* [SWH-TAUMUS-DEPOSITORY](https://github.com/Unipisa/SWH-TAUMUS-LAB)
+* **TAUMUS**
+  * *Workbench:* [SWH-TAUMUS-DEPOSITORY](https://github.com/Unipisa/SWH-TAUMUS-LAB)
