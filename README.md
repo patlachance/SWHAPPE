@@ -4,8 +4,10 @@
 This repository brings together the documentation, the catalogue and other information about the software acquisition process done by [Department of Computer Science](https://di.unipi.it) of [University of Pisa](https://unipi.it) for [Software Heritage](https://www.softwareheritage.org).
 
 **Under contruction**
-
+<!-- 
 *We are currently working on the draft of [Working Notepad](DOCS/WorkingNotepad/WorkingNotepad.md).*
+moved to DIUNIPI4SWH-NOTES
+-->
 
 *Here is the link to the [software acquisition template repository](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE).*
 
