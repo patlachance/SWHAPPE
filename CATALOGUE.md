@@ -6,4 +6,4 @@
   * *Workbench:* [SWH-CMM-LAB](https://github.com/Unipisa/SWH-CMM-LAB)
 
 * **TAUMUS**
-  * *Workbench:* [SWH-TAUMUS-DEPOSITORY](https://github.com/Unipisa/SWH-TAUMUS-LAB)
+  * *Workbench:* [SWH-TAUMUS-LAB](https://github.com/Unipisa/SWH-TAUMUS-LAB)
