@@ -1,5 +1,8 @@
 
-![SWHAP@PISA](./ETC/SWHAP-PISA-LOGO-HEAD.png)
+---
+![SWHAP@PISA](./DOCS/IMAGES/SWHAP-PISA-LOGO-HEAD.png)
+
+---
 
 # SWHAP@PISA
 
@@ -11,9 +14,33 @@ This repository brings together the documentation, the catalogue and other infor
 moved to DIUNIPI4SWH-NOTES
 -->
 
-*Here is the link to the [software acquisition template repository](https://github.com/Unipisa/DIUNIPI-SWH-TEMPLATE).*
+*Here is the link to the [software acquisition template repository](https://github.com/Unipisa/SWHAP-TEMPLATE).*
 
 You can find the [Catalogue](CATALOGUE.md) of the currently acquired software.
 
-<!-- 
-TODO: write some lines to brief introduce the project and the link to partecipate to the process. -->
+---
+
+- [SWHAP@PISA](#SWHAPPISA)
+  - [The Process](#The-Process)
+  - [How To Contribute](#How-To-Contribute)
+  - [Use cases](#Use-cases)
+
+
+---
+
+## The Process
+
+_Here a brief description of the process and the process instantiation @ PISA_
+
+For more details see [the process documentation](./DOCS/THE_PROCESS.md)
+
+
+## How To Contribute
+_Here a brief description of how an acquisition can be done_
+
+For more details see [the process documentation](./DOCS/HOWTO.md)
+
+
+## Use cases
+
+The list of currently acquired softwares can be found in CATALOGUE.md
