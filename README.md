@@ -1,6 +1,9 @@
 
 ---
-![SWHAP@PISA](./DOCS/IMAGES/SWHAP-PISA-LOGO-HEAD.png)
+<p align="center">
+  <img src="./DOCS/IMAGES/SWHAP-PISA-LOGO-HEAD.png" alt="SWHAP@PISA"/>
+</p>
+<!-- ![SWHAP@PISA](./DOCS/IMAGES/SWHAP-PISA-LOGO-HEAD.png) -->
 
 ---
 
