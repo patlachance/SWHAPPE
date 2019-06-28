@@ -6,7 +6,7 @@ If you are already a member of the University of Pisa, you should:
 
 2. join the [Software Heritage team](https://github.com/orgs/Unipisa/teams/software-heritage)
 
-If you are not, you should contact the administrators in order to be invited as an external collaborator. This will allow you to cooperate with our team after creating your own repository.
+If you are not, you should contact the administrators (@Unipisa/swhap-pisa-administrators) in order to be invited as an external collaborator. This will allow you to cooperate with our team after creating your own repository.
 
 **Then**
 
