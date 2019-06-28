@@ -1,17 +1,17 @@
 **Join us !**
 
-Se in universita di Pisa
+If you are already a member of the University of Pisa, you should:
 
-1. entra organizzazione
+1. join the [organization](https://github.com/orgs/Unipisa) on github
 
-2. entra nel team
+2. join the [Software Heritage team](https://github.com/orgs/Unipisa/teams/software-heritage)
 
-Se non sei contatta (creazione repo da amministratore e invito come collaboratore esterno).
+If you are not, you should contact the administrators in order to be invited as an external collaborator. This will allow you to cooperate with our team after creating your own repository.
 
 **Then**
 
-1. leggi [documentazione](THE_PROCESS.md) sul processo
-2. instanzia il processo:
+1. Please read carefully the [documentation](THE_PROCESS.md) about the acquisition process. Furthermore, you should take a look to the format for [actors](https://github.com/Unipisa/SWHAP-TEMPLATE/blob/master/DEPOSITORY/ACTORS.md), [journal](https://github.com/Unipisa/SWHAP-TEMPLATE/blob/master/DEPOSITORY/JOURNAL.md) and [catalogue](https://github.com/Unipisa/SWHAP-TEMPLATE/blob/master/DEPOSITORY/CATALOGUE.md) in the [SWHAP-TEMPLATE depository](https://github.com/Unipisa/SWHAP-TEMPLATE/tree/master/DEPOSITORY).
+2. Instantiate the process:
   * descrivere il processo di istanziazione nel dettaglio
 
 
