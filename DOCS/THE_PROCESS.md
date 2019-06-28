@@ -33,8 +33,8 @@ when the acquisition concerns physical items they are immediately stored in this
 * **Depository**:
   it is a collection of raw (digital) material: there may be cases where it is needed to recover the digital representation from printouts of a software system, blueprints of a system architecture, punched cards, floppy disks, etc.
    
-* **Workbench**: 
-* **Vault**:
+* **Workbench**: is is the digital place where the work is done; it may contains temporary files
+* **Vault**: is the final result of the software acquisition process, that is, a curated version of source code with metadata.
 
 The final product of the process is the **curated source code (CuratedSC)** that will be stored into the Vault, that is the Software Heritage Archive ([HAL](https://hal.archives-ouvertes.fr/)).
 Both the depository and the workbench are introduced to be able to trace the origin and the evolution of the artifacts leading to the CuratedSC.
@@ -62,7 +62,7 @@ In particular, we choose GitHub as main implementation support, both for the dep
 The implementation has involved the skeletal definition of several GitHub repositories. Most are introduced as templates, and are instantiated for the operations (storage included) of each acquisition.
 
 1.  **SWHAP-PISA**
-     This is the front-page of the project. It presents the DIUNIPI4SWH project, the SWHAP software acquisition process, collects the documentation, contains the catalogue of acquired softwares and the journal of acquisitions. It also links the template repository that has to be instantiated to support each acquisition process.
+     This is the front-page of the project. It presents the SWHAP@PISA project, the SWHAP software acquisition process, collects the documentation, contains the catalogue of acquired softwares and the journal of acquisitions. It also links the template repository that has to be instantiated to support each acquisition process.
     It is curated by one or more maintainers in charge of accepting records for the catalogue.
 2.  **SWHAP-TEMPLATE**
     This repository defines the skeleton of directories and files that has to be used for each software acquisition.
@@ -71,7 +71,7 @@ The implementation has involved the skeletal definition of several GitHub reposi
     * DEPOSITORY: 
         * CATALOGUE.<span></span>md 
             Contains references on where the physical source material is stored, possibly with some instructional references to contact.
-            When the depository is done, the file content will be copied inside the DIUNIPI4SWH CATALOGUE.<span></span>md .
+            When the depository is done, the file content will be copied inside the SWHAP@PISA CATALOGUE.<span></span>md .
         * JOURNAL.<span></span>md 
             Contains a log of what has ben done, by whom and in what way is been done.
         * ACTORS.<span></span>md 
@@ -84,7 +84,7 @@ The implementation has involved the skeletal definition of several GitHub reposi
         * codemeta.<span></span>json
             Contains a list of pair value=data, using [CodeMeta](https://codemeta.github.io/crosswalk/) anthology, of all the raw - subject of further correction and integration - collected metadata.
             These metadata should be possibly filled by the author of the software himself, or the person in charge of the software in the moment of acquisition.
-        If the software is already digitally acquired on other platforms (eg [HAL](https://hal.archives-ouvertes.fr/)) it can be omitted (the link to the other platform should be annotated into DIUNIPI4SWH catalogue).
+        If the software is already digitally acquired on other platforms (eg [HAL](https://hal.archives-ouvertes.fr/)) it can be omitted (the link to the other platform should be annotated into SWHAP@PISA catalogue).
 
     * WORKBENCH:
       * SRC
@@ -106,13 +106,13 @@ The implementation has involved the skeletal definition of several GitHub reposi
 The process here is as follows (see Fig. 1):
 
 1.  For every new software acquisition, the DIUNIPI SWH TEMPLATE, which contains the depository skeleton template, is forked into a LAB repository.
-   The forked repository is named according to the pattern <$SW_NAME> LAB, where <$SW_NAME> is in the form of Software_name+Main author surname+Year.
-2.  The acquisition process begins by filling the DEPOSITORY TMP directory with all the digital version of original materials and the traces are written into the specific Depository Journal. Once the acquisition process is terminated the specific Depository catalog is compiled the DEPOSITORY TMP directory is cloned into a <$SW_NAME> DEPOSITORY repository. This repository will be set as read-only (that is, writable only by the owner - the repositoy [is archived](https://github.blog/2017-11-08-archiving-repositories/)).
-3.  The curation process begins filling the WORKBENCH TMP directory from the material of the DEPOSITORY TMP directory. In particular, the SRC folder will contain a synthetic git build following what done by Spinellis [@Spi16g]. The DATA directory will contain all additional information. As for depository, once the curation process is completed, the WORKBENCH TMP directory is cloned into a <$SW_NAME> repository and will be set as read-only. This is the curated software, the result of the acquisition process.
-When (both the collect and) the curation process is terminated the LAB depository is deleted and the link to SW NAME DEPOSITORY and to SW NAME are added to the DIUNIPI4SWH CATALOGUE.
-1.  Once the curated software repository is done, the curator proposes a record into the catalog of [DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) repository. The owner of [DIUNIPI4SWH](https://github.com/Unipisa/DIUNIPI4SWH) repository will accept the record and will submit the curated software to the Software Heritage Archive ([HAL](https://hal.archives-ouvertes.fr/)).
+   The forked repository is named according to the pattern $SW_NAME LAB, <!-- where $SW_NAME is in the form of Software_name+Main author surname+Year !-->.
+2.  The acquisition process begins by filling the DEPOSITORY directory with all the digital version of original materials and the traces are written into the specific Depository Journal. Once the acquisition process is terminated the specific Depository catalog is compiled the DEPOSITORY directory is cloned into a $SW_NAME DEPOSITORY repository. This repository will be set as read-only (that is, writable only by the owner - the repositoy [is archived](https://github.blog/2017-11-08-archiving-repositories/)).
+3.  The curation process begins filling the  directory from the material of the DEPOSITORY directory. In particular, the SRC folder will contain a synthetic git build following what done by Spinellis [@Spi16g]. The DATA directory will contain all additional information. As for depository, once the curation process is completed, the WORKBENCH directory is cloned into a $SW_NAME repository and will be set as read-only. This is the curated software, the result of the acquisition process.
+When (both the collect and) the curation process is terminated the LAB depository is deleted and the link to $SW_NAME DEPOSITORY and to $SW_NAME are added to the SWHAP@PISA CATALOGUE.
+1.  Once the curated software repository is done, the curator proposes a record into the catalog of [SWHAP@PISA](https://github.com/Unipisa/SWHAP@PISA) repository. The owner of [SWHAP@PISA](https://github.com/Unipisa/SWHAP@PISA) repository will accept the record and will submit the curated software to the Software Heritage Archive ([HAL](https://hal.archives-ouvertes.fr/)).
 
-The whole process requires some administrators and moderators of DIUNIPI4SWH process, while each step can be done by different people.
+The whole process requires some administrators and moderators of SWHAP@PISA process, while each step can be done by different people.
 For this reason, HOWTO<span></span>.md contains distinct guidelines for the many different roles involved.
 
 The final picture, with curation process ended, is as in see Fig. 2.
