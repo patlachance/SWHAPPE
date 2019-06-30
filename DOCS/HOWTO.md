@@ -11,9 +11,7 @@ If you are not, you should contact the administrators (@Unipisa/swhap-pisa-admin
 **Then**
 
 1. Please read carefully the [documentation](THE_PROCESS.md) about the acquisition process. Furthermore, you should take a look to the format for [actors](https://github.com/Unipisa/SWHAP-TEMPLATE/blob/master/DEPOSITORY/ACTORS.md), [journal](https://github.com/Unipisa/SWHAP-TEMPLATE/blob/master/DEPOSITORY/JOURNAL.md) and [catalogue](https://github.com/Unipisa/SWHAP-TEMPLATE/blob/master/DEPOSITORY/CATALOGUE.md) in the [SWHAP-TEMPLATE depository](https://github.com/Unipisa/SWHAP-TEMPLATE/tree/master/DEPOSITORY).
-2. Instantiate the process:
-  * descrivere il processo di istanziazione nel dettaglio
-
+2. Instantiate the process as follows:
 
 **Instantiate the Workbench from [SWHAP-TEMPLATE](https://github.com/Unipisa/SWHAP-TEMPLATE) via GitHub.com**
 
