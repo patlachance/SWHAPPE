@@ -8,7 +8,7 @@
   
 * **SPA-Shortest Path Algorithms**
   * A collection of implementatons in C/C++, under the auspices of S. Pallottino.
-  * *Date* TBD.
+  * *Date* Prior to 2004 ?.
   * *Workbench* [SWH-Shortest_Path_Algorithms-LAB](https://github.com/Unipisa/SWH-Shortest_Path_Algorithm-LAB)
 
 * **CMM**
