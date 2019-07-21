@@ -7,7 +7,7 @@
   * *Workbench* [SWH-$name-LAB](https://github.com/Unipisa/SWH-$name-LAB)
   
 * **SPA-Shortest Path Algorithms**
-  * A collection of implementaton in C/C++, under the auspices of S. Pallottino.
+  * A collection of implementatons in C/C++, under the auspices of S. Pallottino.
   * *Date* TBD.
   * *Workbench* [SWH-Shortest_Path_Algorithms-LAB](https://github.com/Unipisa/SWH-Shortest_Path_Algorithm-LAB)
 
