@@ -6,11 +6,10 @@
   * *Depository* [SWH-$name-DEPOSITORY](https://github.com/Unipisa/SWH-$name-DEPOSITORY)
   * *Workbench* [SWH-$name-LAB](https://github.com/Unipisa/SWH-$name-LAB)
   
-* **Shortest_Path_Algorithms**
+* **SPA-Shortest Path Algorithms**
   * A collection of implementaton in C/C++, under the auspices of S. Pallottino.
   * *Date* TBD.
-  * *Depository* [SWH-Shortest_Path_Algorithms-DEPOSITORY](https://github.com/Unipisa/SWH-Shortest_Path_Algorithms-DEPOSITORY)
-  * *Workbench* [SWH-Shortest_Path_Algorithms-LAB](https://github.com/Unipisa/SWH-Shortest_Path_Algorithms-LAB)
+  * *Workbench* [SWH-Shortest_Path_Algorithms-LAB](https://github.com/Unipisa/SWH-Shortest_Path_Algorithm-LAB)
 
 * **CMM**
   * A conservative garbage collector for C++ developed for the PoSSo (Polynomial System Solver) project.
