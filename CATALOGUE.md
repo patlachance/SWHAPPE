@@ -7,11 +7,6 @@
   * *Date* Development interval.
   * *Depository* [SWH-$name-DEPOSITORY](https://github.com/Unipisa/SWH-$name-DEPOSITORY)
   * *Workbench* [SWH-$name-LAB](https://github.com/Unipisa/SWH-$name-LAB)
-
-* **UBORA**
-  * An infrastructure for the development and sharing of open source medical devices.
-  * *Date* Up to 2019.
-  * *Workbench* [SWH-UBORA-LAB](https://github.com/Unipisa/SWH-UBORA-LAB)
   
 * **CEP-I/O**
   * The I/O routine of the CEP, written in decimal symbolic, compiled by hand.
@@ -50,3 +45,7 @@
   * *Date* 1975-77
   * *Workbench* [SWH-TAUMUS-LAB](https://github.com/Unipisa/SWH-TAUMUS-LAB)
   
+* **UBORA**
+  * An infrastructure for the development and sharing of open source medical devices.
+  * *Date* Up to 2019.
+  * *Workbench* [SWH-UBORA-LAB](https://github.com/Unipisa/SWH-UBORA-LAB)
