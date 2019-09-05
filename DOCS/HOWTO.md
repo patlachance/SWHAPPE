@@ -69,3 +69,6 @@ and write into SWHAP@PISA JOURNAL.md or notify @Unipisa/swhap-pisa-administrator
 **Create the synthetic Git**
 
 todo
+
+**Compile codemeta.json**
+Follows the [guidelines](./code_meta_howto.md).
