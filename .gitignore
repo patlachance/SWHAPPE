@@ -2,3 +2,4 @@
 __*.tex
 #ignore vscode
 .vscode
+temp.md
