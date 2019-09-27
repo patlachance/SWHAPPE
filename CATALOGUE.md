@@ -5,8 +5,9 @@
 * **Title**
   * Short description.
   * *Date* Development interval.
-  * *Depository* [SWH-$name-DEPOSITORY](https://github.com/Unipisa/SWH-$name-DEPOSITORY)
-  * *Workbench* [SWH-$name-LAB](https://github.com/Unipisa/SWH-$name-LAB)
+  * *Workbench* [$name-Workbench](https://github.com/Unipisa/$name-Workbench)
+  * *Depository* [$name-Depository](https://github.com/Unipisa/$name-Depository)
+  * [$name](https://github.com/Unipisa/$name)
 
 ## Project Repositories
   * [SWHAPPE](https://github.com/Unipisa/SWHAPPE)
