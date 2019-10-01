@@ -23,19 +23,18 @@ You can find the [Catalogue](CATALOGUE.md) of the currently acquired software.
 
 ---
 
-- [SWHAP@PISA](#SWHAPPISA)
-  - [The Process](#The-Process)
-  - [How To Contribute](#How-To-Contribute)
-  - [Use cases](#Use-cases)
+- [SWHAP@PISA](#swhappisa)
+  - [The Process](#the-process)
+  - [How To Contribute](#how-to-contribute)
+  - [Use cases](#use-cases)
 
 
 ---
 
 ## The Process
 
-_Here a brief description of the process and the process instantiation @ PISA_
 
-For more details see [the process documentation](./DOCS/THE_PROCESS.md)
+For more details see [the process documentation](./DOCS/SHWAP@PISA.md)
 
 
 ## How To Contribute
