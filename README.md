@@ -1,7 +1,7 @@
 
 ---
 <p align="center">
-  <img src="./DOCS/IMAGES/SWHAP-PISA-LOGO-HEAD.png" alt="SWHAP@PISA"/>
+  <img src="./DOCS_OLD/IMAGES/SWHAP-PISA-LOGO-HEAD.png" alt="SWHAP@PISA"/>
 </p>
 <!-- ![SWHAP@PISA](./DOCS_OLD/IMAGES/SWHAP-PISA-LOGO-HEAD.png) -->
 
