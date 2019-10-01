@@ -48,4 +48,4 @@ Feel free to register and exchange informations and best practices.
 
 ## Use cases
 
-The list of currently acquired softwares can be found in [./catalogue](catalogue.md)
+The list of currently acquired softwares can be found in [the catalogue](./catalogue.md)
