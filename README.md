@@ -43,6 +43,8 @@ _Here a brief description of how an acquisition can be done_
 
 For more details see [the process documentation](./DOCS/HOWTO.md)
 
+[This is a mailing list](https://sympa.inria.fr/sympa/info/swhap) dedicated to the Software Heritage Acquisition Process.
+Feel free to register and exchange informations and best practices.
 
 ## Use cases
 
