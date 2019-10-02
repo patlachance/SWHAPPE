@@ -19,7 +19,7 @@ moved to DIUNIPI4SWH-NOTES
 
 *Here is the link to the [software acquisition template repository](https://github.com/Unipisa/SWHAP-TEMPLATE).*
 
-You can find the [Catalogue](CATALOGUE.md) of the currently acquired software.
+You can find the [Catalogue](catalogue.md) of the currently acquired software.
 
 ---
 
