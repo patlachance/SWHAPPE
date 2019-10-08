@@ -1,5 +1,7 @@
 # SWHAPPE Catalogue
 
+-----------------------
+
 ## Catalogue entry template
   
 * **Title**
@@ -9,11 +11,15 @@
   * *Depository* [$name-Depository](https://github.com/Unipisa/$name-Depository)
   * [$name](https://github.com/Unipisa/$name)
 
+-----------------------
+
 ## Project Repositories
   * [SWHAPPE](https://github.com/Unipisa/SWHAPPE)
   * [SWHAP-TEMPLATE](https://github.com/Unipisa/SWHAP-TEMPLATE)
   * [SHWAP-EXAMPLE](https://github.com/Unipisa/SHWAP-EXAMPLE)
   * [DT2SG](https://github.com/Unipisa/DT2SG)
+
+-----------------------
 
 ## Acquired Software
 
