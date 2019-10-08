@@ -13,7 +13,7 @@
   * [SWHAPPE](https://github.com/Unipisa/SWHAPPE)
   * [SWHAP-TEMPLATE](https://github.com/Unipisa/SWHAP-TEMPLATE)
   * [SHWAP-EXAMPLE](https://github.com/Unipisa/SHWAP-EXAMPLE)
-  * [SWHAP-DT2SG](https://github.com/Unipisa/SWHAP-DT2SG)
+  * [DT2SG](https://github.com/Unipisa/DT2SG)
 
 ## Acquired Software
 
@@ -25,9 +25,10 @@
 * **CMM** (archived public)
   * A conservative garbage collector for C++ developed for the PoSSo (Polynomial System Solver) project.
   * *Date* 1994-97
-  * *Depository* [SWH-CMM-DEPOSITORY](https://github.com/Unipisa/CMM-Depository)
-  * *Workbench* [SWH-CMM-LAB](https://github.com/Unipisa/CMM-Workbench)
   * [CMM](https://github.com/Unipisa/CMM)
+  * *Depository* [CMM-Depository](https://github.com/Unipisa/CMM-Depository)
+  * *Workbench* [CMM-Workbench](https://github.com/Unipisa/CMM-Workbench)
+
 
 * **GePrAFF** 
   * A FORTRAN and Assembler program to manage "le prove di avanzamento di fratture per fatica", developed by Leonardo Bertini in his Doctoral Thesis.
@@ -42,18 +43,21 @@
 * **Softi** (archived public)
   * A small suite of assembly and FORTRAN programs for the CEP, to smoothen a curve.
   * *Date* 1968
+  * [Softi](https://github.com/Unipisa/Softi)
   * *Depository* [Softi-Depository](https://github.com/Unipisa/Softi-Depository)
   * *Workbench* [Softi-Workbench](https://github.com/Unipisa/Softi-Workbench)
-  * [Softi](https://github.com/Unipisa/Softi)
+
   
-* **SPA-Shortest Path Algorithms** (public workbench)
+* **SPA-Shortest Path Algorithms** 
   * A collection of implementatons in C/C++, under the auspices of S. Pallottino.
   * *Date* Up to 2004 ?
   * *Workbench* [SPA-Workbench](https://github.com/Unipisa/SPA-Workbench)
 
-* **TAUMUS** (archived public)
+* **TAUmus** (archived public)
   * Software of the TAU2-TAUMUS music synthetizer: a few excerpts of FORTRAN (for the IBM 360 of CNUCE) from the command interpreter, toghether with some examples of music generation scripts.
   * *Date* 1975-77
+  * [TAUmus](https://github.com/Unipisa/TAUmus)
+  * *Depository* [TAUmus-Depository](https://github.com/Unipisa/TAUmus-Depository)
   * *Workbench* [TAUmus-Workbench](https://github.com/Unipisa/TAUmus-Workbench)
   
 * **UBORA**
@@ -61,8 +65,10 @@
   * *Date* Up to 2019.
   * *Workbench* [UBORA-Workbench](https://github.com/Unipisa/UBORA-Workbench)
   
-* **OrbFit** (public)
+* **OrbFit** (archived public)
   * An astronomy library to compute orbits and ephemerides.
-  * *Date* Up to 2019.
+  * *Date* 2002 to 2019 (active developement).
+  * [OrbFit](https://github.com/Unipisa/OrbFit)
+  * *Depository* [OrbFit-Depository](https://github.com/Unipisa/OrbFit-Depository)
   * *Workbench* [OrbFit-Workbench](https://github.com/Unipisa/OrbFit-Workbench)
 
