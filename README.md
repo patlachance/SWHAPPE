@@ -15,7 +15,7 @@ Here is the link to the [software acquisition template repository](https://githu
 
 You can find the [Catalogue](catalogue.md) of the currently acquired software.
 
-All the acquired software are [archived by SoftwareHeritage](https://archive.softwareheritage.org/browse/search/?q=https%3A%2F%2Fgithub.com%2FUnipisa%2F)
+All the acquired software are [archived by SoftwareHeritage](https://archive.softwareheritage.org/browse/search/?q=https%3A%2F%2Fgithub.com%2FUnipisa%2F).
 
 **Under contruction**
 ---
