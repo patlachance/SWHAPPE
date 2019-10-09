@@ -48,4 +48,6 @@ A list of acquired softwares includes: [CMM](https://github.com/Unipisa/CMM), [O
 
 The complete list of currently acquired softwares can be found in [the catalogue](./catalogue.md)
 
-:construction: :construction_worker: _this repository is still under contruction_  :construction_worker: :construction:
+----------------------------
+
+:construction: :construction_worker: *Warning* _this repository is still under contruction_  :construction_worker: :construction:
