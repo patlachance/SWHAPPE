@@ -31,13 +31,13 @@ All the acquired software are [archived by SoftwareHeritage](https://archive.sof
 ## The Process
 
 
-For more details see [the process documentation](./DOCS/SWHAP%40Pisa.md)
+For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.md)
 
 
 ## How To Contribute
 _Here a brief description of how an acquisition can be done_
 
-For more details see [the process documentation](./DOCS/SWHAP%40Pisa.md)
+For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.md)
 
 [This is a mailing list](https://sympa.inria.fr/sympa/info/swhap) dedicated to the Software Heritage Acquisition Process.
 Feel free to register and exchange informations and best practices.
