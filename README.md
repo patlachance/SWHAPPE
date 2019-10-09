@@ -50,4 +50,4 @@ The complete list of currently acquired softwares can be found in [the catalogue
 
 ----------------------------
 
-:construction: :construction_worker: *Warning* _this repository is still under contruction_  :construction_worker: :construction:
+:construction: :construction_worker: **Warning** _this repository is still under contruction_  :construction_worker: :construction:
