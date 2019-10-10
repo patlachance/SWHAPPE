@@ -32,7 +32,7 @@ All the acquired software are [archived by SoftwareHeritage](https://archive.sof
 ## The Process
 
 
-For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.md)
+For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.pdf).
 
 
 ## Use cases
@@ -47,7 +47,7 @@ The complete list of currently acquired softwares can be found in [the catalogue
 [This is a mailing list](https://sympa.inria.fr/sympa/info/swhap) dedicated to the Software Heritage Acquisition Process.
 Feel free to register and exchange informations and best practices.
 
-For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.md)
+For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.pdf).
 
 
 ----------------------------
