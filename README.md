@@ -1,7 +1,7 @@
 
 ---
 <p align="center">
-  <img src="./DOCS_OLD/IMAGES/SWHAP-PISA-LOGO-HEAD.png" alt="SWHAP@PISA"/>
+  <img src="./SWHAP-PISA-LOGO-HEAD.png" alt="SWHAP@PISA"/>
 </p>
 <!-- ![SWHAP@PISA](./DOCS_OLD/IMAGES/SWHAP-PISA-LOGO-HEAD.png) -->
 
@@ -22,8 +22,9 @@ All the acquired software are [archived by SoftwareHeritage](https://archive.sof
 
 - [SWHAP@PISA](#swhappisa)
   - [The Process](#the-process)
-  - [How To Contribute](#how-to-contribute)
   - [Use cases](#use-cases)
+  - [How To Contribute](#how-to-contribute)
+
 
 
 ---
@@ -34,19 +35,20 @@ All the acquired software are [archived by SoftwareHeritage](https://archive.sof
 For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.md)
 
 
-## How To Contribute
-<!--_Here a brief description of how an acquisition can be done_ -->
-
-For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.md)
-
-[This is a mailing list](https://sympa.inria.fr/sympa/info/swhap) dedicated to the Software Heritage Acquisition Process.
-Feel free to register and exchange informations and best practices.
-
 ## Use cases
 
 A list of acquired softwares includes: [CMM](https://github.com/Unipisa/CMM), [OrbFit](https://github.com/Unipisa/OrbFit), [TAUmus](https://github.com/Unipisa/TAUmus), [Softi](https://github.com/Unipisa/Softi)
 
 The complete list of currently acquired softwares can be found in [the catalogue](./catalogue.md)
+
+## How To Contribute
+<!--_Here a brief description of how an acquisition can be done_ -->
+
+[This is a mailing list](https://sympa.inria.fr/sympa/info/swhap) dedicated to the Software Heritage Acquisition Process.
+Feel free to register and exchange informations and best practices.
+
+For more details see [the process documentation](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.md)
+
 
 ----------------------------
 
