@@ -7,24 +7,19 @@
 
 ---
 
-# SWHAP@PISA
+# SWHAP@Pisa
 
-This repository brings together the documentation, the catalogue and other information about the process defined at the [Department of Computer Science](https://di.unipi.it) of the [University of Pisa](https://unipi.it) to support source code acquisition for[Software Heritage](https://www.softwareheritage.org).
+The SWHAP@Pisa project is a joint venture of the [Department of Computer Science](https://di.unipi.it) of the [University of Pisa](https://unipi.it) and [Software Heritage](https://www.softwareheritage.org)(SWH). It aims at defining and supporting a process to acquire sorce code to be saved in the SWH [archive](https://archive.softwareheritage.org/browse/search/?q=https%3A%2F%2Fgithub.com%2FUnipisa%2F).
 
-Here is the link to the [software acquisition template repository](https://github.com/Unipisa/SWHAP-TEMPLATE).
-
-You can find the [Catalogue](catalogue.md) of the currently acquired software.
-
-All the acquired software are [archived by SoftwareHeritage](https://archive.softwareheritage.org/browse/search/?q=https%3A%2F%2Fgithub.com%2FUnipisa%2F).
+This repository brings together the documentation, the catalogue and other information about this process, dubbed SWH Acquisition Process (SWHAP) and its Github based support SWHAPPE (SWHAP Pisa Enactor).
 
 
 ---
 
-- [SWHAP@PISA](#swhappisa)
-  - [The Process](#the-process)
-  - [Use cases](#use-cases)
-  - [How To Contribute](#how-to-contribute)
 
+- [The Process](#the-process)
+- [Use cases](#use-cases)
+- [How To Contribute](#how-to-contribute)
 
 
 ---
