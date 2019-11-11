@@ -9,7 +9,7 @@
 
 # SWHAP@PISA
 
-This repository brings together the documentation, the catalogue and other information about the software acquisition process done by [Department of Computer Science](https://di.unipi.it) of [University of Pisa](https://unipi.it) for [Software Heritage](https://www.softwareheritage.org).
+This repository brings together the documentation, the catalogue and other information about the process defined at the [Department of Computer Science](https://di.unipi.it) of the [University of Pisa](https://unipi.it) to support source code acquisition for[Software Heritage](https://www.softwareheritage.org).
 
 Here is the link to the [software acquisition template repository](https://github.com/Unipisa/SWHAP-TEMPLATE).
 
