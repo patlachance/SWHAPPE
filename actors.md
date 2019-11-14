@@ -1,4 +1,6 @@
-* # Carlo Montangero
+
+# People that contributed to the acquisitions in the Catalogue
+## Carlo Montangero
   * *Affiliation* 
      * *Current:* [Dipartimento di Informatica](www.di.unipi.it), [Università di Pisa](www.unipi.it) 
        * *Email:* <carlo@montangero.eu> 
@@ -6,7 +8,7 @@
        * *Website:* <http://www.di.unipi.it/~monta/>
   * *Roles:* Collector
 
-* # Guido Scatena
+## Guido Scatena
   * *Affiliation* 
      * *Current:* [Dipartimento di Informatica](www.di.unipi.it), [Università di Pisa](www.unipi.it) 
        * *Email:* <guido.scatena@unipi.it> 
