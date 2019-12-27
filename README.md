@@ -9,7 +9,7 @@
 
 # SWHAP@Pisa
 
-The SWHAP@Pisa project is a joint venture of the [Department of Computer Science](https://di.unipi.it) of the [University of Pisa](https://unipi.it) and [Software Heritage](https://www.softwareheritage.org) (SWH). It aims at defining and supporting a process to acquire sorce code to be saved in the SWH [archive](https://archive.softwareheritage.org/browse/search/?q=https%3A%2F%2Fgithub.com%2FUnipisa%2F).
+The SWHAP@Pisa project is a joint venture of the [Department of Computer Science](https://di.unipi.it) of the [University of Pisa](https://unipi.it) and [Software Heritage](https://www.softwareheritage.org) (SWH). It aims at defining and supporting a process to acquire source code to be saved in the SWH [archive](https://archive.softwareheritage.org/browse/search/?q=https%3A%2F%2Fgithub.com%2FUnipisa%2F).
 
 This repository brings together the documentation, the catalogue and other information about this process, dubbed SWH Acquisition Process (SWHAP) and its Github based support SWHAPPE (SWHAP Pisa Enactor).
 
